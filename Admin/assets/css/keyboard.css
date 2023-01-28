@@ -1,0 +1,71 @@
+keyboard-quantity: 12;
+keyboard-width: 20px;
+
+body {
+  background: -webkit-linear-gradient(top, #fff 0%, #f2f2f2 25%, rgba(#444, 0.3) 100%);
+  min-height: 200px;
+}
+.no-border {
+  border: 0;
+  box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+.keys {
+    left: 305px;
+    right: 0px;
+    position: relative;
+  width: 150px;
+  display: block;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+.text-kembalian{
+    margin: 0px;
+    width: 150px;
+    position: relative;
+  margin-top: 100px;
+  margin-right: 343px;
+  margin-left: 343px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.text-uang{
+    margin: 0 336px;
+    width: auto;
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.inputuang{
+    position :relative;
+    width: 150px;
+    margin: 0 302px;
+    margin-bottom: 100px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.key__button {
+    
+  box-sizing: border-box;
+  line-height: 50px;
+  font-size: 15px;
+  text-align: center;
+  width: 45px;
+  color: #555;
+  cursor: pointer;
+  margin: 1px;
+  height: 45px;
+  border-color: #f2f2f2;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  background: -webkit-linear-gradient(top, #f9f9f9 0%, #D2D2D2 80%, #c0c0c0 100%);
+  font-family: sans-serif;
+  display: inline-block;
+  transition: box-shadow 0.3s ease, transform 0.15s ease;
+  box-shadow: 0 0 1px #888,0 1px 0 #fff, 0 6px 0 #C0C0C0, 0 8px 17px rgba(#444, 0.4), 2px 1px 4px rgba(#444, 0.25), -2px 1px 4px rgba(#444, 0.25), 0 9px 16px rgba(#444, 0.1);
+  
+}
