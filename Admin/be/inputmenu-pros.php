@@ -12,7 +12,7 @@ if(isset($_POST['submit']))
         'HARGA' => $_POST['HARGA']
     );
 
-    $ch = curl_init('http://localhost/najwafood-nis/najwafood/api/inputmenu.php');
+    $ch = curl_init('https://aerochain.id/api/inputmenu.php');
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 

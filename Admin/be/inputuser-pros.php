@@ -12,7 +12,7 @@ if(isset($_POST['simpan']))
         'role' => $_POST['Role']
     );
 
-    $ch = curl_init('http://localhost/najwafood-nis/najwafood/api/register.php');
+    $ch = curl_init('https://aerochain.id/api/register.php');
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 

@@ -11,7 +11,7 @@ if(isset($_POST['submit']))
         'password' => $_POST['password']
     );
 
-    $ch = curl_init('http://localhost/najwafood-nis/najwafood/api/login.php');
+    $ch = curl_init('https://aerochain.id/api/login.php');
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 
