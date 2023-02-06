@@ -10,7 +10,7 @@ if (isset($_POST['katagori']) && isset($_POST['nama_menu']) && isset($_POST['sta
     $nama_menu = $_POST['nama_menu'];
     $status = $_POST['status'];
     $harga = $_POST['HARGA'];
-    $photo = $_POST['phoyo'];
+    $photo = $_POST['photo'];
     //mengecek id apakah sudah pernah daftar atau belum
     
       //mendaftarkan menu baru
