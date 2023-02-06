@@ -1,9 +1,9 @@
 <?php
 $host     = 'localhost';
-$user     = 'root'; // diisi dengan user database kalian biasanya
+$user     = 'uas'; // diisi dengan user database kalian biasanya
                     // defaultnya bernama root jika kita belum 
                     // merubahnya
-$password = 'password';  //diisi dengan password database kalian biasanya
+$password = 'Wisnu1308!';  //diisi dengan password database kalian biasanya
                  // defaultnya kosong
 $db       = 'najwafoodv2'; //diisi dengan nama database kalian
 $link = mysqli_connect($host, $user, $password, $db) or die(mysqli_error($link));
