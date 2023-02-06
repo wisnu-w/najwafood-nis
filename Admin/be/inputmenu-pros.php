@@ -12,7 +12,7 @@ if(isset($_POST['submit']))
         'HARGA' => $_POST['HARGA']
     );
 
-    $ch = curl_init('https://aerochain.id/api/inputmenu.php');
+    $ch = curl_init('https://aerochain.id/api/inputmenuu.php');
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 
@@ -35,6 +35,7 @@ if(isset($_POST['submit']))
 
     else{
         echo "la ko hamil";
+        echo $dataku['error_msg'];
     }
 }
 
