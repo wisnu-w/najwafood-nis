@@ -7,8 +7,8 @@ if(isset($_POST['simpan']))
 
     $data = array(
         'name' =>  $_POST['Username'],
-        'password' => $_POST['email'],
-        'email' =>  $_POST['password'],
+        'password' => $_POST['password'],
+        'email' =>  $_POST['email'],
         'role' => $_POST['Role']
     );
 
@@ -35,6 +35,7 @@ if(isset($_POST['simpan']))
 
     else{
         echo "la ko hamil";
+        echo($dataku);
     }
 }
 
