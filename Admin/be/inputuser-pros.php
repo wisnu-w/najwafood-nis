@@ -35,7 +35,7 @@ if(isset($_POST['simpan']))
 
     else{
         echo "la ko hamil";
-        echo($dataku);
+        echo $dataku;
     }
 }
 
