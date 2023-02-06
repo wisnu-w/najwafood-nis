@@ -83,7 +83,8 @@ function input_menu ($idkat, $name_menu, $status_menu, $harga_menu){
     $nama = escape($name_menu);
     $status = escape($status_menu);
     $harga = escape($harga_menu);
-    $query = "INSERT INTO menu(id_menu, id_kat, nama_menu, status_menu, harga, photo) VALUE('$id', '$idkata', '$nama', '$status', '$harga')";
+    $poto = 'pot';
+    $query = "INSERT INTO menu(id_menu, id_kat, nama_menu, status_menu, harga, photo) VALUE('$id', '$idkata', '$nama', '$status', '$harga','$poto')";
     $addmenu = mysqli_query($link, $query);
     if( $addmenu ) {
         $usr = "SELECT * FROM menu WHERE id_menu = '$id'";
