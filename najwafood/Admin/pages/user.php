@@ -20,7 +20,7 @@
             <td>Role</td>
         </tr>
         <?php
-          $ch = curl_init('http://localhost/najwafood-nis/najwafood/api/printuser.php');
+          $ch = curl_init('https://aerochain.id/api/printmenu.php');
           curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
           $output = curl_exec($ch);
           $json_decoded = json_decode($output);

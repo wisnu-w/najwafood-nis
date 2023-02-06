@@ -1,4 +1,4 @@
 <?php
-require_once "config/koneksi.php";
-require_once "config/functions.php";
+require_once "./Config/koneksi.php";
+require_once "./Config/functions.php";
 ?>
