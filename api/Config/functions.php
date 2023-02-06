@@ -83,7 +83,6 @@ function input_menu ($idkat, $name_menu, $status_menu, $harga_menu){
     $nama = escape($name_menu);
     $status = escape($status_menu);
     $harga = escape($harga_menu);
-    $poto = 'pot';
     $query = "INSERT INTO menu(id_menu, id_kat, nama_menu, status_menu, harga) VALUE('$id', '$idkata', '$nama', '$status', '$harga')";
     $addmenu = mysqli_query($link, $query);
     if( $addmenu ) {

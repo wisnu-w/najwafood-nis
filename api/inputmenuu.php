@@ -3,7 +3,7 @@
 require_once "core/init.php";
 // json response array
 $response = array("error" => FALSE);
-if (isset($_POST['katagori']) && isset($_POST['nama_menu']) && isset($_POST['status'])&& isset($_POST['HARGA'])&& isset($_POST['photo'])) {
+if (isset($_POST['katagori']) && isset($_POST['nama_menu']) && isset($_POST['status'])&& isset($_POST['HARGA'])) {
   
     // menerima parameter POST ( katagori, nama_menu, status, harga )
     $katagori = $_POST['katagori'];
